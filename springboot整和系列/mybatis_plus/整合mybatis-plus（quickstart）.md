@@ -288,8 +288,7 @@ class DemoApplicationTests {
                 .userId(5)
                 .userName("哆啦a梦yy")
                 .build();
-        user.updat
-            eById();
+        user.updateById();
     }
 
     /**

@@ -79,6 +79,7 @@ mybatis:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.xj.demo.pojo
-  configuration:　　# 开启驼峰uName自动映射到u_name
+  configuration:　　
+  # 开启驼峰uName自动映射到u_name
     map-underscore-to-camel-case: true
 ```
