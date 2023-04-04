@@ -20,6 +20,22 @@ private static final Logger logger = LoggerFactory.getLogger(this.XXX.class);
 </dependency>
 ```
 
+排除自带日志依赖
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+        <!-- 排除以下依赖 -->
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+```
+
 log4j.properties
 
 ```properties
