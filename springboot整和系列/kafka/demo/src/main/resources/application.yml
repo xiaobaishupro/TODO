@@ -1,0 +1,30 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    #\u751F\u4EA7\u8005
+    producer:
+      acks: 1
+      retries: 3
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    #\u6D88\u8D39\u8005
+    consumer:
+      #\u9ED8\u8BA4\u6D88\u8D39\u7EC4\u540D
+      group-id: my-group
+      #\u5173\u95ED\u81EA\u52A8\u63D0\u4EA4
+      enable-auto-commit: true
+      #\u63D0\u4EA4\u95F4\u9694\u7684\u6BEB\u79D2 spring.kafka.consumer.auto-commit-interval.ms=60000
+      # kafka\u6D88\u8D39\u6307\u5B9A\u6BCF\u6B21\u6700\u5927\u6D88\u8D39\u6D88\u606F\u6570\u91CF
+      max-poll-records: 50
+      #\u5F53\u5404\u5206\u533A\u4E0B\u6709\u5DF2\u63D0\u4EA4\u7684offset\u65F6\uFF0C\u4ECE\u63D0\u4EA4\u7684offset\u5F00\u59CB\u6D88\u8D39\uFF1B\u65E0\u63D0\u4EA4\u7684offset\u65F6\uFF0C\u4ECE\u5934\u5F00\u59CB\u6D88\u8D39
+      #auto-offset-reset: earliest
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    listener:
+      #\u624B\u52A8\u63D0\u4EA4
+      ack-mode: manual_immediate
+      # \u8BBE\u7F6E\u6279\u91CF\u6D88\u8D39
+      type: batch
+      # \u5E76\u53D1\u6570\u8BBE\u7F6E
+      concurrency: 3
