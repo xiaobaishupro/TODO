@@ -28,6 +28,8 @@ demo使用单机环境，使用kafka自带的zookeeper
 
 整合参考：https://docs.spring.io/spring-kafka/docs/current/reference/html/
 
+demo以springboot2.5.1版本演示
+
 ## 二、整合springboot
 
 ### 1.yml配置
