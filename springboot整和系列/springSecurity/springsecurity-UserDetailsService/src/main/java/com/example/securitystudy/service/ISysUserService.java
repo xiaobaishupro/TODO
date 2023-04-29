@@ -1,7 +1,7 @@
-package com.example.ruijistudy.service;
+package com.example.securitystudy.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.ruijistudy.entity.SysUser;
+import com.example.securitystudy.entity.SysUser;
 
 /**
  * @author 努力的派大星

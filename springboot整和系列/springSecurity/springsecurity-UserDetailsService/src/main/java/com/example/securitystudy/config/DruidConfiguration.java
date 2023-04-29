@@ -1,4 +1,4 @@
-package com.example.ruijistudy.config;
+package com.example.securitystudy.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;

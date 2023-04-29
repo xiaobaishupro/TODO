@@ -1,4 +1,4 @@
-package com.example.ruijistudy.config;
+package com.example.securitystudy.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,10 +1,10 @@
-package com.example.ruijistudy.service.impl;
+package com.example.securitystudy.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.ruijistudy.entity.SysUser;
-import com.example.ruijistudy.mapper.SysUserMapper;
-import com.example.ruijistudy.service.ISysUserService;
+import com.example.securitystudy.entity.SysUser;
+import com.example.securitystudy.mapper.SysUserMapper;
+import com.example.securitystudy.service.ISysUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

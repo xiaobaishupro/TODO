@@ -1,7 +1,7 @@
-package com.example.ruijistudy;
+package com.example.securitystudy;
 
-import com.example.ruijistudy.entity.SysUser;
-import com.example.ruijistudy.mapper.SysUserMapper;
+import com.example.securitystudy.entity.SysUser;
+import com.example.securitystudy.mapper.SysUserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.example.ruijistudy.util;
+package com.example.securitystudy.util;
 
 import lombok.Data;
 

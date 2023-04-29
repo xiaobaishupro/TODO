@@ -1,4 +1,4 @@
-package com.example.ruijistudy.config;
+package com.example.securitystudy.config;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;

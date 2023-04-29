@@ -1,7 +1,7 @@
-package com.example.ruijistudy.mapper;
+package com.example.securitystudy.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.ruijistudy.entity.SysUser;
+import com.example.securitystudy.entity.SysUser;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

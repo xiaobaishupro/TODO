@@ -1,8 +1,8 @@
-package com.example.ruijistudy.controller;
+package com.example.securitystudy.controller;
 
-import com.example.ruijistudy.entity.SysUser;
-import com.example.ruijistudy.service.ISysUserService;
-import com.example.ruijistudy.util.Result;
+import com.example.securitystudy.entity.SysUser;
+import com.example.securitystudy.service.ISysUserService;
+import com.example.securitystudy.util.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

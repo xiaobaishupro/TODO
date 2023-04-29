@@ -1,11 +1,11 @@
-package com.example.ruijistudy.config;
+package com.example.securitystudy.config;
 
 /**
  * @author 努力的派大星
  * @version 1.0
  */
 
-import com.example.ruijistudy.service.impl.SysUserService;
+import com.example.securitystudy.service.impl.SysUserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

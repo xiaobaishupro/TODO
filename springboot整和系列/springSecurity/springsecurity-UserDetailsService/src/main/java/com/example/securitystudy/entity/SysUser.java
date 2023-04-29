@@ -1,4 +1,4 @@
-package com.example.ruijistudy.entity;
+package com.example.securitystudy.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
